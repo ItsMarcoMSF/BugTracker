@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Live Bug Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a version of an internal tool I created to track all issues, bugs, and features to implement for all of my projects.
+
+It is a full-stack application using the JAM stack with ReactJS, FaunaDB, and Netlify Functions (serverless functions)
+
+You are welcomed to test out the live app on [https://bugtracker-marco.netlify.app/](https://bugtracker-marco.netlify.app/) 
 
 ## Available Scripts
 
