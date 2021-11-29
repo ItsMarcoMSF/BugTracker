@@ -17,7 +17,7 @@ const AddIssue = ({ refreshBugs }) => {
         e.preventDefault();
         const body = { description, dev, priority }
         try {
-            const res = await fetch('/.netlify/functions/createBug', {
+            await fetch('/.netlify/functions/createBug', {
                 method: 'POST',
                 body: JSON.stringify(body),
             })
